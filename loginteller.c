@@ -14,7 +14,7 @@ int main(){
         perror("getlogin");
         exit(EXIT_FAILURE);
     }  
-    printf("Your login name at the system is : %s\n",szLogin);
+    printf("El teu nom de sistema és : %s\n",szLogin);
 
     return (0);
 }
